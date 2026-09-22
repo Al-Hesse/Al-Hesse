@@ -1,6 +1,12 @@
 <div align="center">
-  <h1>Olá, eu sou o Alexandre Hesse 👋</h1>
-  <p><strong>Desenvolvedor Full Stack | Backend & Sistemas Web</strong></p>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,2,9,20,24&height=220&section=header&text=Alexandre%20Hesse&fontSize=52&animation=fadeIn&fontAlignY=38&desc=Desenvolvedor%20Full%20Stack%20%7C%20Backend%20%26%20Sistemas%20Web&descAlignY=58&descAlign=50" width="100%" alt="Alexandre Hesse Banner" />
+
+  <br />
+
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&width=550&lines=Desenvolvedor+Full+Stack;Java+%E2%80%A2+Spring+Boot+%E2%80%A2+MySQL;Python+%E2%80%A2+Django+%E2%80%A2+PostgreSQL;PHP+%E2%80%A2+Laravel+%E2%80%A2+Docker;React+%E2%80%A2+TypeScript+%E2%80%A2+Tailwind" alt="Typing SVG" />
+  </a>
+
   <p>Estudante de Análise e Desenvolvimento de Sistemas na <strong>FATEC Praia Grande</strong></p>
 
   <p>
@@ -17,11 +23,11 @@
 
 ### 👨‍💻 Sobre Mim
 
-- 🎓 Cursando na **FATEC Praia Grande**, com foco em desenvolvimento de software e arquitetura de sistemas.
-- ⚙️ Experiência prática na criação de **APIs RESTful robustas**, autenticação segura (JWT, Spring Security) e arquitetura em camadas.
-- 🗄️ Modelagem e administração de bancos de dados relacionais (**PostgreSQL, MySQL, SQLite**).
-- 🐳 Uso constante de **Docker e Docker Compose** para isolamento de ambientes e facilidade de deploy.
-- 🧪 Cultura de qualidade de software e testes automatizados (**TDD, PHPUnit, Pytest**).
+- 🎓 Cursando Análise e Desenvolvimento de Sistemas na **FATEC Praia Grande**.
+- ⚙️ Experiência prática na criação de **APIs RESTful**, arquitetura em camadas e autenticação segura (**JWT, Spring Security**).
+- 🗄️ Modelagem, consultas e administração de bancos de dados relacionais (**PostgreSQL, MySQL, SQLite**).
+- 🐳 Uso constante de **Docker e Docker Compose** para containerização e orquestração de ambientes.
+- 🧪 Cultura de qualidade de código, boas práticas e testes automatizados (**TDD, PHPUnit, Pytest**).
 
 ---
 
@@ -89,7 +95,7 @@
 ### 🚀 Projetos em Destaque
 
 - 🏢 **[ZelaTech](https://github.com/Al-Hesse/ZelaTech)**  
-  *Sistema web para gestão e manutenção de condomínios.*  
+  *Sistema web completo para modernização e gestão de manutenção condominial.*  
   Desenvolvido com arquitetura REST desacoplada em **Java 17, Spring Boot 3, Spring Security com JWT, JPA/Hibernate, MySQL e React + Vite** no frontend, com integração ao gateway de pagamentos da **Asaas**.
 
 - 🎓 **[SGA - Sistema de Gestão Acadêmica](https://github.com/joao-luizzz/SGA)**  
@@ -98,7 +104,7 @@
 
 - 🎬 **[Cadastro de Filmes API](https://github.com/Al-Hesse/projeto_filme)**  
   *API RESTful completa para cadastro e consumo de acervo de filmes.*  
-  Construída com **Laravel, Docker, SQLite**, validações avançadas, upload de mídia física e 100% coberta por testes automatizados (**PHPUnit / TDD**), preparada para consumo mobile.
+  Construída com **Laravel, Docker, SQLite**, validações avançadas, upload de fotos físicas e testes automatizados (**PHPUnit / TDD**), preparada para consumo mobile com Expo.
 
 ---
 
