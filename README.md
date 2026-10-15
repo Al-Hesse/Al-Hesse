@@ -107,24 +107,26 @@ Graduando em **Análise e Desenvolvimento de Sistemas** pela **Faculdade de Tecn
 <tr>
 <td>
 
-# API Cadastro de Filmes — Microsserviço RESTful
+# Catálogo de Filmes — Plataforma Full Stack Mobile & API RESTful
 
 <p>
   <img src="https://img.shields.io/badge/PHP_8-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP 8" />
   <img src="https://img.shields.io/badge/Laravel_11-FF2D20?style=flat-square&logo=laravel&logoColor=white" alt="Laravel 11" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" />
+  <img src="https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React Native" />
+  <img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white" alt="Expo" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/React_Query-FF4154?style=flat-square&logo=reactquery&logoColor=white" alt="React Query" />
+  <img src="https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white" alt="Zod" />
   <img src="https://img.shields.io/badge/PHPUnit-3C9CD7?style=flat-square&logo=php&logoColor=white" alt="PHPUnit" />
-  <img src="https://img.shields.io/badge/Expo_Ready-000020?style=flat-square&logo=expo&logoColor=white" alt="Expo Ready" />
 </p>
 
-* **Visão Geral:** API RESTful robusta desenvolvida para a disciplina de Programação para Dispositivos Móveis (PDM), projetada especificamente para consumo por aplicações móveis em React Native / Expo.
+* **Visão Geral:** Ecossistema completo desenvolvido de forma incremental para a disciplina de Programação para Dispositivos Móveis (PDM). O projeto integra uma API RESTful containerizada e um aplicativo móvel em React Native para gerenciamento e catálogo de filmes (CRUD completo).
 * **Arquitetura & Engenharia:**
-  * Desenvolvida em **PHP 8** com framework **Laravel**, utilizando API Resources para serialização controlada de entidades JSON.
-  * Implementação de pipeline multipart para upload e gerenciamento de arquivos físicos de mídia com resolução de URLs públicas absolutas.
-  * Containerização completa através de imagem base Composer e orquestração via **Docker Compose**.
-  * Cobertura de testes unitários e de integração (Feature Tests) com **PHPUnit** sob metodologia TDD.
-* **Repositório:** [github.com/Al-Hesse/projeto_filme](https://github.com/Al-Hesse/projeto_filme)
+  * **Backend (Etapa 1):** Microsserviço RESTful construído em **PHP 8** com **Laravel 11**, utilizando API Resources para serialização JSON, pipeline multipart para upload e gerenciamento de arquivos físicos com URLs absolutas, orquestração via **Docker Compose** e cobertura de testes automatizados com **PHPUnit** sob metodologia TDD.
+  * **Frontend Mobile (Etapa 2):** Aplicativo móvel construído com **Expo (React Native)** e **TypeScript**, estruturado no padrão modular de **Features**, formulários com validação estrita via **React Hook Form + Zod**, gerenciamento de estado e cache com **TanStack React Query v5**, cliente **Axios** e tema visual Dark Cinema.
+* **Repositório da API:** [github.com/Al-Hesse/projeto_filme](https://github.com/Al-Hesse/projeto_filme)
+* **Repositório do App:** [github.com/Al-Hesse/projeto_filme_app](https://github.com/Al-Hesse/projeto_filme_app)
 
 </td>
 </tr>
