@@ -121,12 +121,12 @@ Graduando em **Análise e Desenvolvimento de Sistemas** pela **Faculdade de Tecn
   <img src="https://img.shields.io/badge/PHPUnit-3C9CD7?style=flat-square&logo=php&logoColor=white" alt="PHPUnit" />
 </p>
 
-* **Visão Geral:** Ecossistema completo desenvolvido de forma incremental para a disciplina de Programação para Dispositivos Móveis (PDM). O projeto integra uma API RESTful containerizada e um aplicativo móvel em React Native para gerenciamento e catálogo de filmes (CRUD completo).
+* **Visão Geral:** Ecossistema Monorepo completo desenvolvido para a disciplina de Programação para Dispositivos Móveis (PDM). O projeto integra uma API RESTful em Laravel hospedada na nuvem (Render) e um aplicativo móvel em React Native (Expo) para gerenciamento e catálogo de filmes (CRUD completo).
 * **Arquitetura & Engenharia:**
-  * **Backend (Etapa 1):** Microsserviço RESTful construído em **PHP 8** com **Laravel 11**, utilizando API Resources para serialização JSON, pipeline multipart para upload e gerenciamento de arquivos físicos com URLs absolutas, orquestração via **Docker Compose** e cobertura de testes automatizados com **PHPUnit** sob metodologia TDD.
-  * **Frontend Mobile (Etapa 2):** Aplicativo móvel construído com **Expo (React Native)** e **TypeScript**, estruturado no padrão modular de **Features**, formulários com validação estrita via **React Hook Form + Zod**, gerenciamento de estado e cache com **TanStack React Query v5**, cliente **Axios** e tema visual Dark Cinema.
-* **Repositório da API:** [github.com/Al-Hesse/projeto_filme](https://github.com/Al-Hesse/projeto_filme)
-* **Repositório do App:** [github.com/Al-Hesse/projeto_filme_app](https://github.com/Al-Hesse/projeto_filme_app)
+  * **Backend API:** Microsserviço RESTful construído em **PHP 8.4** com **Laravel 11**, utilizando API Resources para serialização JSON, pipeline multipart para upload com URLs absolutas, orquestração via **Docker** e hospedagem contínua via **Render**.
+  * **Frontend Mobile:** Aplicativo móvel construído com **Expo (React Native)** e **TypeScript**, estruturado no padrão modular de **Features**, formulários com validação estrita via **React Hook Form + Zod**, gerenciamento de estado e cache com **TanStack React Query v5**, cliente **Axios** e tema visual Dark Cinema.
+* **Repositório Unificado (Monorepo):** [github.com/Al-Hesse/projeto_filme](https://github.com/Al-Hesse/projeto_filme)
+* **API em Produção (Render):** [projeto-filme-o03c.onrender.com/api/filmes](https://projeto-filme-o03c.onrender.com/api/filmes)
 
 </td>
 </tr>
